@@ -1,7 +1,6 @@
 {
   "name": "nasa-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "install-server": "npm install --prefix server",
@@ -16,5 +15,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinVash/Nasa-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VinVash/Nasa-Project/issues"
+  },
+  "homepage": "https://github.com/VinVash/Nasa-Project#readme",
+  "description": ""
 }
