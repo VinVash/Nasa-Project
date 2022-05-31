@@ -2,6 +2,7 @@ FROM node:lts-alpine
 
 WORKDIR /app
 
+# for copying both the package.json and package-lock.json files to the app folder which is set as the WORKDIR.
 COPY package*.json ./
 
 COPY client/package*.json client/
